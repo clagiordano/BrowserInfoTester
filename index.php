@@ -17,7 +17,7 @@
             use weblibs\php\BrowserInfo;
             use weblibs\php\DateTime;
 
-            define("TEST_FILE_PATH", "./User Agent List.txt");
+            define("TEST_FILE_PATH", "User Agent List.txt");
             define("BROWSCAP_FILE_PATH", "php_browscap.txt");
             $dt = new DateTime();
             //print $_SERVER['HTTP_USER_AGENT'] . "\n";
